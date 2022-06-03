@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "280604452354",
+    "firebase_url": "https://chatsapp-38e29-default-rtdb.firebaseio.com",
+    "project_id": "chatsapp-38e29",
+    "storage_bucket": "chatsapp-38e29.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280604452354:android:9048f7c4b0d8365606a91b",
+        "android_client_info": {
+          "package_name": "com.dominic.chatsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280604452354-dejckavvfcv0f4u7s8rb311kvij0plb3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dominic.chatsapp",
+            "certificate_hash": "14380c693d843221f2402a7060fa582e0dc93c6a"
+          }
+        },
+        {
+          "client_id": "280604452354-ghfr2chpqtu6fp9s7ga9mqpnqab0kv6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1ypI8YQI3BFuVtYnrEIbchZiA04rn7CA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280604452354-ghfr2chpqtu6fp9s7ga9mqpnqab0kv6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

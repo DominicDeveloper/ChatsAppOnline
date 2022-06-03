@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Welcome">
+
+
+
+
+    <ImageView
+        android:id="@+id/my_static_chat_icon"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="200dp"
+        android:src="@drawable/chat"/>
+
+
+    <TextView
+        android:id="@+id/my_static_chat_text_1"
+        android:text="Welcome to"
+        android:textStyle="bold"
+        android:textColor="#009688"
+        android:textSize="17sp"
+        app:layout_constraintTop_toBottomOf="@id/my_static_chat_icon"
+        app:layout_constraintRight_toLeftOf="@id/my_static_chat_tex_2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:gravity="center"
+        android:layout_marginStart="130dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        app:layout_constraintLeft_toRightOf="@id/my_static_chat_text_1"
+        app:layout_constraintTop_toTopOf="@id/my_static_chat_text_1"
+        app:layout_constraintBottom_toBottomOf="@id/my_static_chat_text_1"
+        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/my_static_chat_tex_2"
+        android:textSize="17sp"
+        android:textColor="#FF9800"
+        android:textStyle="bold"
+        android:text=" ChatApp"
+        android:layout_marginEnd="130dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Future Techno\nDominic Developer."
+        android:textColor="#009688"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

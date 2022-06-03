@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="start"
+    android:padding="@dimen/_10sdp"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="@dimen/_20sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/iconcard"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp">
+
+        <ImageView
+            android:src="@drawable/adduser"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </androidx.cardview.widget.CardView>
+
+
+       <LinearLayout
+           android:layout_marginStart="@dimen/_3sdp"
+           android:background="@drawable/receive_drawble"
+           android:orientation="vertical"
+           app:layout_constraintRight_toRightOf="parent"
+          app:layout_constraintLeft_toRightOf="@id/iconcard"
+           app:layout_constraintBottom_toBottomOf="@id/iconcard"
+           app:layout_constraintTop_toTopOf="@id/iconcard"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content">
+           <TextView
+               android:layout_marginStart="@dimen/_10sdp"
+               android:id="@+id/item_message_group_user_name"
+               android:text="User name"
+               android:textColor="@color/black"
+               app:layout_constraintRight_toRightOf="parent"
+               app:layout_constraintTop_toTopOf="@id/iconcard"
+               app:layout_constraintLeft_toRightOf="@id/iconcard"
+               android:textSize="@dimen/_17sdp"
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"/>
+
+           <TextView
+
+               android:id="@+id/item_message_group_user_message"
+               android:layout_width="match_parent"
+               android:textColor="@color/black"
+               android:layout_marginStart="@dimen/_10sdp"
+               app:layout_constraintRight_toRightOf="parent"
+               app:layout_constraintTop_toBottomOf="@id/item_message_group_user_name"
+               app:layout_constraintLeft_toRightOf="@id/iconcard"
+               app:layout_constraintBottom_toBottomOf="@id/iconcard"
+               android:text="Hi, I'm dominic"
+               android:layout_height="wrap_content"/>
+
+       </LinearLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

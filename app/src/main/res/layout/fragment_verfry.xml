@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Verfry">
+
+
+    <ImageView
+        android:id="@+id/img_2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:src="@drawable/textmessage"
+        android:layout_width="250dp"
+        android:padding="10dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="20dp"
+        android:layout_height="250dp"/>
+
+    <TextView
+        app:layout_constraintTop_toBottomOf="@id/img_2"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/phoneLble"
+        android:text="Verify +998911399958"
+        android:textAlignment="center"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        android:textColor="#14268A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txt_3"
+        app:layout_constraintTop_toBottomOf="@id/phoneLble"
+        android:text="Enter the code for verify your phone number"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="normal"
+        android:textColor="#14268A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.cardview.widget.CardView
+        app:layout_constraintTop_toBottomOf="@id/txt_3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="15dp"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <com.mukesh.OtpView
+                android:id="@+id/otp_view"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:inputType="number"
+                android:itemBackground="#B6B6B6"
+                app:OtpItemCount="6"
+                app:OtpLineColor="@color/white"
+                app:OtpViewType="line"
+                android:focusableInTouchMode="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/continueBtn01"
+                android:text="Continue"
+                android:textStyle="bold|normal"
+                android:textSize="19sp"
+                app:cornerRadius="10dp"
+                android:textAllCaps="false"
+                android:layout_marginTop="8dp"
+                app:backgroundTint="#DF081981"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

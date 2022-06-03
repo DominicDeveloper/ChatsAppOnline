@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Coding/Android project for example/ChatsApp/app/src/main/res/drawable-v24/bacground_shape.xml" value="0.2265" />
+        <entry key="..\:/Coding/Android project for example/ChatsApp/app/src/main/res/drawable-v24/bacground_shape_2.xml" value="0.2265" />
+        <entry key="..\:/Coding/Android project for example/ChatsApp/app/src/main/res/drawable/bacground_shape.xml" value="0.2205" />
+        <entry key="..\:/Coding/Android project for example/ChatsApp/app/src/main/res/drawable/bottom_shpe.xml" value="0.2205" />
+        <entry key="..\:/Coding/Android project for example/ChatsApp/app/src/main/res/drawable/receive_drawble.xml" value="0.105" />
+        <entry key="..\:/Coding/Android project for example/ChatsApp/app/src/main/res/drawable/send_drawble.xml" value="0.105" />
+        <entry key="..\:/Coding/Android project for example/ChatsApp/app/src/main/res/layout/activity_main.xml" value="0.259375" />
+        <entry key="..\:/Coding/Android project for example/ChatsApp/app/src/main/res/layout/delete_layout.xml" value="0.259375" />
+        <entry key="..\:/Coding/Android project for example/ChatsApp/app/src/main/res/layout/fragment_add_user.xml" value="0.259375" />
+        <entry key="..\:/Coding/Android project for example/ChatsApp/app/src/main/res/layout/fragment_chat.xml" value="0.259375" />
+        <entry key="..\:/Coding/Android project for example/ChatsApp/app/src/main/res/layout/fragment_group_chat.xml" value="0.259375" />
+        <entry key="..\:/Coding/Android project for example/ChatsApp/app/src/main/res/layout/fragment_groups_list.xml" value="0.259375" />
+        <entry key="..\:/Coding/Android project for example/ChatsApp/app/src/main/res/layout/fragment_load_user.xml" value="0.259375" />
+        <entry key="..\:/Coding/Android project for example/ChatsApp/app/src/main/res/layout/fragment_main.xml" value="0.264" />
+        <entry key="..\:/Coding/Android project for example/ChatsApp/app/src/main/res/layout/fragment_main_list.xml" value="0.259375" />
+        <entry key="..\:/Coding/Android project for example/ChatsApp/app/src/main/res/layout/fragment_main_menu.xml" value="0.17889492753623187" />
+        <entry key="..\:/Coding/Android project for example/ChatsApp/app/src/main/res/layout/fragment_sign_up.xml" value="0.259375" />
+        <entry key="..\:/Coding/Android project for example/ChatsApp/app/src/main/res/layout/fragment_verfry.xml" value="0.259375" />
+        <entry key="..\:/Coding/Android project for example/ChatsApp/app/src/main/res/layout/fragment_welcome.xml" value="0.259375" />
+        <entry key="..\:/Coding/Android project for example/ChatsApp/app/src/main/res/layout/item_action.xml" value="0.259375" />
+        <entry key="..\:/Coding/Android project for example/ChatsApp/app/src/main/res/layout/item_action_chat.xml" value="0.25833333333333336" />
+        <entry key="..\:/Coding/Android project for example/ChatsApp/app/src/main/res/layout/item_group.xml" value="0.2" />
+        <entry key="..\:/Coding/Android project for example/ChatsApp/app/src/main/res/layout/item_revicegroup_message.xml" value="0.25833333333333336" />
+        <entry key="..\:/Coding/Android project for example/ChatsApp/app/src/main/res/layout/item_users.xml" value="0.259375" />
+        <entry key="..\:/Coding/Android project for example/ChatsApp/app/src/main/res/layout/receive_mgs.xml" value="0.259375" />
+        <entry key="..\:/Coding/Android project for example/ChatsApp/app/src/main/res/layout/send_mgs.xml" value="0.259375" />
+        <entry key="..\:/Coding/Android project for example/ChatsApp/app/src/main/res/menu/my_menu.xml" value="0.259375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

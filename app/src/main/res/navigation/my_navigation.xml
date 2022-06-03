@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/welcome">
+
+    <fragment
+        android:id="@+id/welcome"
+        android:name="com.dominic.chatsapp.Welcome"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome" />
+    <fragment
+        android:id="@+id/signUp"
+        android:name="com.dominic.chatsapp.SignUp"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" />
+    <fragment
+        android:id="@+id/verfry"
+        android:name="com.dominic.chatsapp.Verfry"
+        android:label="fragment_verfry"
+        tools:layout="@layout/fragment_verfry" />
+    <fragment
+        android:id="@+id/mainListFragment"
+        android:name="com.dominic.chatsapp.MainListFragment"
+        android:label="fragment_main_list"
+        tools:layout="@layout/fragment_main_list" />
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.dominic.chatsapp.ChatFragment"
+        android:label="fragment_chat"
+        tools:layout="@layout/fragment_chat" />
+    <fragment
+        android:id="@+id/loadUser"
+        android:name="com.dominic.chatsapp.LoadUser"
+        android:label="fragment_load_user"
+        tools:layout="@layout/fragment_load_user" />
+    <fragment
+        android:id="@+id/addUser"
+        android:name="com.dominic.chatsapp.AddUser"
+        android:label="fragment_add_user"
+        tools:layout="@layout/fragment_add_user" />
+    <fragment
+        android:id="@+id/mainMenu"
+        android:name="com.dominic.chatsapp.MainMenu"
+        android:label="fragment_main_menu"
+        tools:layout="@layout/fragment_main_menu" />
+    <fragment
+        android:id="@+id/groupsList"
+        android:name="com.dominic.chatsapp.GroupsList"
+        android:label="fragment_groups_list"
+        tools:layout="@layout/fragment_groups_list" />
+    <fragment
+        android:id="@+id/fragmentGroupChat"
+        android:name="com.dominic.chatsapp.FragmentGroupChat"
+        android:label="fragment_group_chat"
+        tools:layout="@layout/fragment_group_chat" />
+</navigation>

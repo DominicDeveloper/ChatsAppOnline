@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FragmentGroupChat">
+    <include
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/my_include"
+        layout="@layout/item_action"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        app:layout_constraintTop_toBottomOf="@id/my_include"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/liner02"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:listitem="@layout/item_revicegroup_message"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+    <LinearLayout
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/liner02"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_shpe"
+        android:orientation="horizontal"
+        android:layout_marginBottom="0dp"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            app:cardUseCompatPadding="true"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            android:layout_weight="2"
+            android:padding="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/messageBoxGroup"
+                        android:gravity="start"
+                        android:hint="Message"
+                        android:paddingStart="5dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:textSize="15sp"
+                        android:textColorHint="#6F757A"
+                        android:textStyle="bold"
+                        android:background="@android:color/transparent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+
+                </LinearLayout>
+                <ImageView
+                    android:id="@+id/attachment"
+                    android:layout_weight="3"
+                    android:src="@drawable/img_1"
+                    android:layout_width="240dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_height="match_parent"/>
+
+                <ImageView
+                    android:id="@+id/camera"
+                    android:layout_weight="3"
+                    android:src="@drawable/ic_camera"
+                    android:layout_width="240dp"
+                    android:layout_height="match_parent"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:id="@+id/btn_send_message_in_group"
+            android:background="@drawable/bacground_shape"
+            android:layout_gravity="center"
+            android:backgroundTint="#CBCFCF"
+            android:layout_marginEnd="9dp"
+            android:layout_marginBottom="3dp"
+            android:padding="12dp"
+            app:tint="#032AFF"
+            android:src="@drawable/ic_send_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
